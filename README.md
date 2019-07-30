@@ -1,56 +1,31 @@
-# my-project
+[在VUE中利用MQTT协议实现即时通讯](https://blog.csdn.net/weixin_33953249/article/details/88594882)
+以前尝试在vue中用上mqtt，了解到mqtt实质上是基于websocket进行数据通信，所以上文中在node下实现的服务端此时不能满足需求
 
-> An electron-vue project
-
-#### Build Setup
-
-``` bash
-# 报错 socket hang up
-http://www.lanboqy.com/,网站没有异步请求
-
-# 探测较慢网站
-https://www.bazabiur.pl
-
-# 证书失效
-https://www.sylamex.de/
+[在Node.js下运用MQTT协议实现即时通讯及离线推送](https://segmentfault.com/a/1190000018002561)
 
 
-# lint all JS/Vue component files in `src/`
-npm run lint
-https://www.cnblogs.com/xieqian/p/10023203.html:压缩文件
-```
+1. 正常情况下存储到数据中
+2. 断网情况下进行存储到本地数据库
+[基于Electron-vue框架使用node-modbus采集硬件设备数据](https://blog.csdn.net/qq_35525304/article/details/80169550)
+	* 用node.js实现串口通讯,使用modbus-tcp协议与硬件设备进行通信，直接操控串口，更是直接可用于工业控制。
 
----
+[vue项目迁移到electron-vue实操记录（serialport 串口获取](https://blog.csdn.net/weixin_39856066/article/details/85135633)
+[electron-vue安装node-serialport](https://blog.csdn.net/q809198545/article/details/79652543)
+[node-serialport](https://blog.csdn.net/love100628/article/details/75336802)
 
-
-
-识别规则：
-header: HTTP响应头, 从回包信息中获取
-html: HTML源代码
-script：页面上包含的JavaScript文件的URL.可自行添加多个
-url：页面的完整URL
-meta:HTML元标记.可自行添加多个
-js：JavaScript方法（区分大小写)
+* npm install --global --production windows-build-tools
+[扫码枪](https://blog.csdn.net/weixin_39856066/article/details/81945431)
 
 
-获取版本信息：  使用特殊语法从模式匹配中获取版本号
-例如：通过获取jquery-1.9.1.min.js的版本
-jquery-([\d\.]+).min.js\;version:\1,自动获取，可以点击查看指纹详情获取对应识别名称的版本号。
+[modbus通讯协议和应用](https://www.bilibili.com/video/av50327244/?p=9)
+  
+ 
+二进制、十六进制、 PLC
+PLC
+ASCII通讯方式
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+主站和从站。
+广播形式
 
 
 

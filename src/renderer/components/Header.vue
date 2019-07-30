@@ -4,7 +4,7 @@
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal"  router >
             <el-menu-item index="/index/finger">
                 <i class="iconfont icon-zhiwen mr10"></i>
-                Switch API
+                mqtt
             </el-menu-item>
         </el-menu>
         <div class="userInfo">
